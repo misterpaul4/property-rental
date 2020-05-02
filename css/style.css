@@ -14,7 +14,6 @@
 }
 
 .header-nav {
-  height: 50px;
   font-family: var(--nav-font);
 }
 
@@ -42,8 +41,13 @@ a {
   border-radius: 0;
 }
 
+.header-nav .burger-menu .login:hover {
+  border-radius: 0 0 0 10px;
+}
+
 .burger-menu {
-  transform: translate3d(-48px, 36px, 0px);
+  transform: translate3d(-55px, 36px, 0px);
+  border-radius: 0 0 0 10px;
 }
 
 img {
@@ -62,10 +66,24 @@ img {
   }
 
   .burger-menu {
-    transform: translate3d(-127px, 38px, 0px);
+    transform: translate3d(-100px, 38px, 0px);
+  }
+
+  .header-nav .burger-menu a {
+    font-size: 0.75rem;
   }
 
   .header-nav a {
     font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .header-nav a {
+    font-size: 1.3rem;
+  }
+
+  .burger-menu {
+    border-radius: 0 0 10px 10px;
   }
 }
