@@ -28,7 +28,8 @@ a {
   outline: none;
 }
 
-.header-nav a:hover {
+.header-nav .nav a:hover {
+  transform: scale(1.1);
   color: white;
   background: var(--secondary-color);
   border-radius: 10px;
