@@ -1,3 +1,7 @@
+:root {
+  --secondary-color: #fa8572;
+}
+
 .primary-bg-color {
   background: #e77c7c;
 }
@@ -6,8 +10,27 @@
   height: 50px;
 }
 
+a {
+  outline: none;
+}
+
 .header-nav a {
   color: white;
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.header-nav a:hover {
+  color: white;
+  background: var(--secondary-color);
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 0px 5px 1px rgba(214,207,207,0.5);
+  -moz-box-shadow: -1px 0px 5px 1px rgba(214,207,207,0.5);
+  box-shadow: -1px 0px 5px 1px rgba(214,207,207,0.5);
+}
+
+.header-nav .burger-menu a:hover {
+  border-radius: 0;
 }
 
 img {
@@ -16,6 +39,8 @@ img {
 
 .logo {
   width: 140px;
+  height: 40px;
 }
+
 
 
