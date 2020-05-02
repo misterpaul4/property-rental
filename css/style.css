@@ -1,0 +1,21 @@
+.primary-bg-color {
+  background: #e77c7c;
+}
+
+.header-nav {
+  height: 50px;
+}
+
+.header-nav a {
+  color: white;
+}
+
+img {
+  object-fit: cover;
+}
+
+.logo {
+  width: 140px;
+}
+
+
