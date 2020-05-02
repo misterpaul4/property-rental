@@ -33,6 +33,10 @@ a {
   border-radius: 0;
 }
 
+.burger-menu {
+  transform: translate3d(-48px, 36px, 0px)
+}
+
 img {
   object-fit: cover;
 }
