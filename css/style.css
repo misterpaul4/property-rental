@@ -2,7 +2,7 @@
 
 :root {
   --secondary-color: #fa8572;
-  --nav-font: 'Orbitron', sans-serif;;
+  --nav-font: 'Orbitron', sans-serif;
 }
 
 .wrapper {
@@ -33,9 +33,9 @@ a {
   color: white;
   background: var(--secondary-color);
   border-radius: 10px;
-  -webkit-box-shadow: -1px 0px 5px 1px rgba(214,207,207,0.5);
-  -moz-box-shadow: -1px 0px 5px 1px rgba(214,207,207,0.5);
-  box-shadow: -1px 0px 5px 1px rgba(214,207,207,0.5);
+  -webkit-box-shadow: -1px 0 5px 1px rgba(214, 207, 207, 0.5);
+  -moz-box-shadow: -1px 0 5px 1px rgba(214, 207, 207, 0.5);
+  box-shadow: -1px 0 5px 1px rgba(214, 207, 207, 0.5);
 }
 
 .header-nav .burger-menu a:hover {
@@ -47,7 +47,7 @@ a {
 }
 
 .burger-menu {
-  transform: translate3d(-55px, 36px, 0px);
+  transform: translate3d(-55px, 36px, 0);
   border-radius: 0 0 0 10px;
 }
 
@@ -67,15 +67,16 @@ img {
   }
 
   .burger-menu {
-    transform: translate3d(-100px, 38px, 0px);
-  }
-
-  .header-nav .burger-menu a {
-    font-size: 0.75rem;
+    transform: translate3d(-100px, 36px, 0);
+    top: -3px !important;
   }
 
   .header-nav a {
     font-size: 1rem;
+  }
+
+  .header-nav .burger-menu a {
+    font-size: 0.75rem;
   }
 }
 
@@ -86,5 +87,6 @@ img {
 
   .burger-menu {
     border-radius: 0 0 10px 10px;
+    top: -4px !important;
   }
 }
