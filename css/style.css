@@ -5,6 +5,10 @@
   --nav-font: 'Orbitron', sans-serif;;
 }
 
+.wrapper {
+  max-width: 1366px;
+}
+
 .primary-bg-color {
   background: #e77c7c;
 }
@@ -39,7 +43,7 @@ a {
 }
 
 .burger-menu {
-  transform: translate3d(-48px, 36px, 0px)
+  transform: translate3d(-48px, 36px, 0px);
 }
 
 img {
@@ -51,5 +55,17 @@ img {
   height: 40px;
 }
 
+/* media queries */
+@media all and (max-width: 1024px) {
+  .nav span {
+    display: none;
+  }
 
+  .burger-menu {
+    transform: translate3d(-127px, 38px, 0px);
+  }
 
+  .header-nav a {
+    font-size: 1rem;
+  }
+}
