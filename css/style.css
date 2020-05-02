@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
 :root {
   --secondary-color: #fa8572;
+  --nav-font: 'Orbitron', sans-serif;;
 }
 
 .primary-bg-color {
@@ -8,6 +11,7 @@
 
 .header-nav {
   height: 50px;
+  font-family: var(--nav-font);
 }
 
 a {
@@ -16,7 +20,8 @@ a {
 
 .header-nav a {
   color: white;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
+  font-weight: bold;
   outline: none;
 }
 
