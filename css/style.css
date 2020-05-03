@@ -18,7 +18,8 @@
   font-family: var(--nav-font);
 }
 
-a {
+a,
+button:focus {
   outline: none;
 }
 
@@ -73,8 +74,33 @@ img {
 
 .search-container {
   border: 1px solid red;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
   border-radius: 7px;
+  background: #d9d9d9;
+}
+
+.box-std {
+  height: 35px;
+  border: 0;
+  background: white;
+}
+
+.pos-icon {
+  right: 5px;
+  bottom: 8px;
+  width: 15px;
+}
+
+/*
+.search-form label:first-child {
+  width: 40%;
+}
+*/
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 /* media queries */

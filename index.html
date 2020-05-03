@@ -42,29 +42,30 @@
         <!-- search -->
         <div class="hero-container container">
           <h1 class="boast text-light text-uppercase">your gateway to rental properties in cyprus</h1>
-          <form class="text-uppercase search-container bg-light container-fluid">
+          <form class="text-uppercase search-container container-fluid">
             <h3>search properties:</h3>
             <fieldset class="search-form">
-              <label>
-                <input type="search" name="search" placeholder="e.g studio">
+              <label class="mr-1">
+                <input type="search" name="search" placeholder="e.g studio" class="pl-2 box-std w-100">
               </label>
 
               <!-- budget -->
-              <fieldset class="d-inline-block">
+              <fieldset class="d-inline-block position-relative mr-1">
                 <label for="budget" class="d-block mb-0">budget:</label>
-                <select name="budget">
+                <select name="budget" class="box-std pr-4 pl-2">
                   <option value="0" selected="selected"></option>
                   <option value="200">£200</option>
                   <option value="400">£400</option>
                   <option value="600">£600</option>
                   <option vlaue="800">> £800</option>
                 </select>
+                <img src="img/icons/arrow-down.svg" alt="arrow down icon" class="position-absolute pos-icon">
               </fieldset>
 
               <!-- district -->
-              <fieldset class="d-inline-block">
+              <fieldset class="d-inline-block position-relative mr-1">
                 <label for="district" class="d-block mb-0">district:</label>
-                <select name="district">
+                <select name="district" class="box-std pr-4 pl-2 text-capitalize">
                   <option value="0" selected="selected"></option>
                   <option value="paphos">paphos</option>
                   <option value="kyrenia">kyrenia</option>
@@ -73,14 +74,15 @@
                   <option value="nicosia">nicosia</option>
                   <option value="famagusta">famagusta</option>
                 </select>
+                <img src="img/icons/arrow-down.svg" alt="arrow down icon" class="position-absolute pos-icon">
               </fieldset>
 
               <!-- search -->
-              <button type="submit" class="d-inline-block"><i class="fa fa-search"></i> search
+              <button type="submit" class="box-std mr-1"><i class="fa fa-search"></i> SEARCH
               </button>
 
               <!-- clear filter -->
-              <button type="reset" name="reset"><i class="fas fa-retweet"></i> clear</button>
+              <button type="reset" class="box-std mr-1" name="reset"><i class="fas fa-retweet"></i> CLEAR</button>
             </fieldset>
           </form>
         </div>
