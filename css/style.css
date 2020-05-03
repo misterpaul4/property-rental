@@ -6,6 +6,7 @@
   --primary-color: #e77c7c;
   --secondary-color: #fa8572;
   --secondary-color-blue: #519cd8;
+  --secondary-color-grey: #8f8b83;
   --nav-font: 'Orbitron', sans-serif;
   --hero-font: 'Roboto Mono', monospace;
 }
@@ -26,8 +27,36 @@ body {
   color: var(--primary-color);
 }
 
+.secondary-blue-bg-color {
+  background-color: var(--secondary-color-blue);
+}
+
+.secondary-blue-color {
+  color: var(--secondary-color-blue);
+}
+
+.secondary-grey-color {
+  color: var(--secondary-color-grey);
+}
+
+.secondary-grey-bg-color {
+  background-color: var(--secondary-color-grey);
+}
+
 .header-nav {
   font-family: var(--nav-font);
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.features a {
+  font-weight: 500;
 }
 
 a,
@@ -136,6 +165,14 @@ select {
   grid-template-rows: 1fr 1fr;
 }
 
+.detail-image {
+  width: 500px;
+}
+
+.detail {
+  width: 30%;
+}
+
 /* media queries */
 @media all and (max-width: 1024px) {
   .nav span {
@@ -157,6 +194,10 @@ select {
 
   .briefing-grid {
     grid-template-columns: 1fr;
+  }
+
+  .detail-image {
+    width: 400px;
   }
 }
 
