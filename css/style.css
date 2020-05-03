@@ -5,7 +5,7 @@
 :root {
   --primary-color: #e77c7c;
   --secondary-color: #fa8572;
-  --secondary-color-blue: #519CD8;
+  --secondary-color-blue: #519cd8;
   --nav-font: 'Orbitron', sans-serif;
   --hero-font: 'Roboto Mono', monospace;
 }
@@ -64,7 +64,7 @@ img {
   object-fit: cover;
 }
 
-.brief img {
+.briefing img {
   width: 40px;
 }
 
@@ -130,6 +130,12 @@ select {
   -moz-appearance: none;
 }
 
+.briefing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
 /* media queries */
 @media all and (max-width: 1024px) {
   .nav span {
@@ -147,6 +153,10 @@ select {
 
   .header-nav .burger-menu a {
     font-size: 0.75rem;
+  }
+
+  .briefing-grid {
+    grid-template-columns: 1fr;
   }
 }
 
