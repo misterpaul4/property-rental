@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
 :root {
+  --primary-color: #e77c7c;
   --secondary-color: #fa8572;
   --nav-font: 'Orbitron', sans-serif;
 }
@@ -72,6 +73,8 @@ img {
 
 .search-container {
   border: 1px solid red;
+  opacity: 0.8;
+  border-radius: 7px;
 }
 
 /* media queries */

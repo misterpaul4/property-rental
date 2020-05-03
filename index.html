@@ -41,16 +41,46 @@
       <div class="hero d-flex align-items-center">
         <!-- search -->
         <div class="hero-container container">
-          <h1 class="info text-light text-uppercase">your gateway to rental properties in cyprus</h1>
-          <form class="text-uppercase search-container">
-            <h3>search properties</h3>
-            <fieldset>
+          <h1 class="boast text-light text-uppercase">your gateway to rental properties in cyprus</h1>
+          <form class="text-uppercase search-container bg-light container-fluid">
+            <h3>search properties:</h3>
+            <fieldset class="search-form">
               <label>
                 <input type="search" name="search" placeholder="e.g studio">
               </label>
-              <select name="budget">
-                <option value="< £200">< £200</option>
-              </select>
+
+              <!-- budget -->
+              <fieldset class="d-inline-block">
+                <label for="budget" class="d-block mb-0">budget:</label>
+                <select name="budget">
+                  <option value="0" selected="selected"></option>
+                  <option value="200">£200</option>
+                  <option value="400">£400</option>
+                  <option value="600">£600</option>
+                  <option vlaue="800">> £800</option>
+                </select>
+              </fieldset>
+
+              <!-- district -->
+              <fieldset class="d-inline-block">
+                <label for="district" class="d-block mb-0">district:</label>
+                <select name="district">
+                  <option value="0" selected="selected"></option>
+                  <option value="paphos">paphos</option>
+                  <option value="kyrenia">kyrenia</option>
+                  <option value="larnaca">larnaca</option>
+                  <option value="limassol">limassol</option>
+                  <option value="nicosia">nicosia</option>
+                  <option value="famagusta">famagusta</option>
+                </select>
+              </fieldset>
+
+              <!-- search -->
+              <button type="submit" class="d-inline-block"><i class="fa fa-search"></i> search
+              </button>
+
+              <!-- clear filter -->
+              <button type="reset" name="reset"><i class="fas fa-retweet"></i> clear</button>
             </fieldset>
           </form>
         </div>
