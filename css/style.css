@@ -47,21 +47,26 @@ body {
   font-family: var(--nav-font);
 }
 
-a {
-  color: inherit;
+a,
+button:focus {
+  outline: none;
 }
 
 a:hover {
   text-decoration: none;
 }
 
-.features a {
-  font-weight: 500;
+.primary-hover-color:hover {
+  color: var(--primary-color);
 }
 
-a,
-button:focus {
-  outline: none;
+.secondary-grey-hover-color:hover {
+  color: var(--secondary-color-grey);
+}
+
+.features a {
+  font-weight: 500;
+  font-size: 0.8rem;
 }
 
 .header-nav a {
@@ -102,7 +107,8 @@ h1 {
   font-weight: 900;
 }
 
-h2 {
+h2,
+h3 {
   font-size: 1.1rem;
   font-weight: 700;
 }
@@ -153,6 +159,11 @@ h2 {
   font-size: 1.8rem;
 }
 
+.detail-image {
+  width: 300px;
+  height: 300px;
+}
+
 select {
   appearance: none;
   -webkit-appearance: none;
@@ -163,18 +174,6 @@ select {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-}
-
-.detail-image {
-  top: 50%;
-  transform: translateY(-50%);
-  right: 0;
-  opacity: 0.8;
-}
-
-.features > * {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 /* media queries */
@@ -199,6 +198,11 @@ select {
   .briefing-grid {
     grid-template-columns: 1fr;
   }
+
+  .detail-image {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -209,15 +213,6 @@ select {
   .burger-menu {
     border-radius: 0 0 10px 10px;
     top: -4px !important;
-  }
-
-  .features > * {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .detail {
-    width: auto !important;
   }
 
   .search-box {
