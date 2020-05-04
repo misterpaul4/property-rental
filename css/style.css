@@ -19,6 +19,10 @@ body {
   max-width: 1366px;
 }
 
+.bg-black {
+  background: black;
+}
+
 .primary-bg-color {
   background: var(--primary-color);
 }
@@ -184,7 +188,8 @@ footer {
   background: black;
 }
 
-.footer-navigation li {
+.footer-navigation li,
+ .footer-search-box {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -220,6 +225,12 @@ footer {
   .detail-image {
     width: 200px;
     height: 200px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .footer-navigation {
+    font-size: 0.75rem;
   }
 }
 
