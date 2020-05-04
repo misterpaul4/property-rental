@@ -164,8 +164,7 @@ h3 {
   height: 300px;
 }
 
-select {
-  appearance: none;
+.search-form select {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -185,7 +184,8 @@ footer {
   background: black;
 }
 
-.logo {
+.footer-navigation .with-logo {
+  height: 100px;
   border: 1px solid red;
 }
 
