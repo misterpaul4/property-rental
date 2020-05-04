@@ -176,6 +176,19 @@ select {
   grid-template-rows: 1fr 1fr;
 }
 
+.footer-navigation li {
+  list-style: none;
+  flex: 1;
+}
+
+footer {
+  background: black;
+}
+
+.logo {
+  border: 1px solid red;
+}
+
 /* media queries */
 @media all and (max-width: 1024px) {
   .nav span {
