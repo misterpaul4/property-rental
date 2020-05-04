@@ -15,6 +15,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+footer li {
+  list-style: none;
+}
+
 .wrapper {
   max-width: 1366px;
 }
@@ -49,6 +53,10 @@ body {
 
 .header-nav {
   font-family: var(--nav-font);
+}
+
+a {
+  color: inherit;
 }
 
 a,
@@ -180,12 +188,16 @@ h3 {
 }
 
 .footer-navigation li {
-  list-style: none;
   flex: 1;
 }
 
-footer {
+.footer-navigation-container {
   background: black;
+}
+
+.footer-copyright-container {
+  background: #473936;
+  color: #e0e0e0;
 }
 
 .footer-navigation li,
