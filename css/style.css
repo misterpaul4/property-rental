@@ -195,9 +195,17 @@ h3 {
   background: black;
 }
 
+.sub-contact-about-container > * {
+  flex-basis: 33.33333%;
+}
+
 .footer-copyright-container {
-  background: #473936;
+  background: #2b1d0e;
   color: #e0e0e0;
+}
+
+.footer-copyright-container > * {
+  opacity: 0.6;
 }
 
 .footer-navigation li,
