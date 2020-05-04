@@ -166,11 +166,15 @@ select {
 }
 
 .detail-image {
-  width: 500px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  opacity: 0.8;
 }
 
-.detail {
-  width: 30%;
+.features > * {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* media queries */
@@ -195,10 +199,6 @@ select {
   .briefing-grid {
     grid-template-columns: 1fr;
   }
-
-  .detail-image {
-    width: 400px;
-  }
 }
 
 @media all and (max-width: 768px) {
@@ -211,7 +211,15 @@ select {
     top: -4px !important;
   }
 
-  .search-btn,
+  .features > * {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .detail {
+    width: auto !important;
+  }
+
   .search-box {
     width: 100%;
   }
