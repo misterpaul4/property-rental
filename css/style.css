@@ -216,15 +216,20 @@ h3 {
   opacity: 0.6;
 }
 
-.footer-navigation li,
 .footer-search-box {
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-navigation li {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer-navigation .with-logo {
   flex: initial;
   width: 100px;
   margin: 0 -5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .sub-contact-about-container .mailing-list {
