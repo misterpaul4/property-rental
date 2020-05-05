@@ -98,7 +98,6 @@ a:hover {
 .header-nav .nav a:hover {
   transform: scale(1.1);
   color: white;
-  /*background: var(--secondary-color);*/
   border: 1px solid #fbe207;
   border-radius: 10px;
   -webkit-box-shadow: -1px 0 5px 1px rgba(214, 207, 207, 0.5);
@@ -212,12 +211,12 @@ h3 {
 }
 
 .search-result {
-  width: 330px;
+  width: 350px;
   overflow: hidden;
 }
 
 .house-photo {
-  height: 200px;
+  height: 220px;
 }
 
 .footer-navigation li {
@@ -340,5 +339,15 @@ h3 {
     -o-order: -1;
     order: -1;
     margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .search-result {
+    width: 300px;
+  }
+
+  .house-photo {
+    height: 150px;
   }
 }
