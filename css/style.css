@@ -146,8 +146,12 @@ h3 {
   font-family: var(--hero-font);
 }
 
-.search-form {
+.hero .search-form {
   border-radius: 7px;
+  background: #d9d9d9;
+}
+
+.search-filter-container {
   background: #d9d9d9;
 }
 

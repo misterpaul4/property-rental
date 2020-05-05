@@ -45,46 +45,50 @@
         <!-- search -->
         <div class="hero-container container">
           <span class="message text-light text-uppercase">your gateway to rental properties in cyprus</span>
-          <form class="text-uppercase search-form container-fluid pt-md-5 pt-4 pb-4 mt-2">
+          <form action="search-result.html" class="text-uppercase search-form container-fluid pt-md-5 pt-4 pb-4 mt-2">
             <!-- search -->
             <label class="search-box"> search properties:
               <input type="search" name="search" placeholder="e.g studio" class="pl-2 box-std w-100">
             </label>
 
-            <!-- budget -->
-            <fieldset class="d-inline-block position-relative">
-              <label class="d-block mb-0">budget:</label>
-              <select name="budget" class="box-std text-capitalize">
-                <option value="0" selected="selected">select</option>
-                <option value="200">max. £200</option>
-                <option value="400">max. £400</option>
-                <option value="600">max. £600</option>
-                <option value="800">> £800</option>
-              </select>
-              <img src="img/icons/arrow-down.svg" alt="arrow down icon" class="position-absolute pos-icon">
+            <fieldset class="d-inline-block">
+              <!-- budget -->
+              <fieldset class="d-inline-block position-relative">
+                <label class="d-block mb-0">budget:</label>
+                <select name="budget" class="box-std text-capitalize pr-4">
+                  <option value="0" selected="selected">select</option>
+                  <option value="200">max. £200</option>
+                  <option value="400">max. £400</option>
+                  <option value="600">max. £600</option>
+                  <option value="800">> £800</option>
+                </select>
+                <img src="img/icons/arrow-down.svg" alt="arrow down icon" class="position-absolute pos-icon">
+              </fieldset>
+
+              <!-- district -->
+              <fieldset class="d-inline-block position-relative">
+                <label class="d-block mb-0">district:</label>
+                <select name="district" class="box-std text-capitalize pr-4">
+                  <option value="0" selected="selected">select</option>
+                  <option value="paphos">Paphos</option>
+                  <option value="kyrenia">Kyrenia</option>
+                  <option value="larnaca">Larnaca</option>
+                  <option value="limassol">Limassol</option>
+                  <option value="nicosia">Nicosia</option>
+                  <option value="famagusta">Famagusta</option>
+                </select>
+                <img src="img/icons/arrow-down.svg" alt="arrow down icon" class="position-absolute pos-icon">
+              </fieldset>
             </fieldset>
 
-            <!-- district -->
-            <fieldset class="d-inline-block position-relative">
-              <label class="d-block mb-0">district:</label>
-              <select name="district" class="box-std text-capitalize">
-                <option value="0" selected="selected">select</option>
-                <option value="paphos">Paphos</option>
-                <option value="kyrenia">Kyrenia</option>
-                <option value="larnaca">Larnaca</option>
-                <option value="limassol">Limassol</option>
-                <option value="nicosia">Nicosia</option>
-                <option value="famagusta">Famagusta</option>
-              </select>
-              <img src="img/icons/arrow-down.svg" alt="arrow down icon" class="position-absolute pos-icon">
+            <fieldset class="d-inline-block">
+              <!-- clear filter -->
+              <button type="reset" class="d-inline box-std text-light mt-2 text-center px-3" name="reset"><i class="fas fa-retweet"></i> CLEAR</button>
+
+              <!-- submit -->
+              <button type="submit" class="box-std text-light mt-2 text-center px-3 search-btn"><i class="fa fa-search"></i> SEARCH
+              </button>
             </fieldset>
-
-            <!-- clear filter -->
-            <button type="reset" class="d-inline box-std text-light mt-2 text-center px-3" name="reset"><i class="fas fa-retweet"></i> CLEAR</button>
-
-            <!-- submit -->
-            <button type="submit" class="box-std text-light mt-2 text-center px-3 search-btn"><i class="fa fa-search"></i> SEARCH
-            </button>
           </form>
         </div>
         <!-- search END -->
