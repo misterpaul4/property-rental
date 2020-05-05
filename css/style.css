@@ -3,10 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-  --primary-color: #e77c7c;
-  --secondary-color: #fa8572;
-  --secondary-color-blue: #519cd8;
-  --secondary-color-grey: #8f8b83;
+  --primary-color: #f15f36;
+  --secondary-color: #e77c7c;
+  --secondary-color-blue: #1fbbed;
+  --secondary-color-grey: #777076;
+  --secondary-color-yellow: #fbe207;
+  --secondary-color-purple: #b857a1;
   --nav-font: 'Orbitron', sans-serif;
   --hero-font: 'Roboto Mono', monospace;
 }
