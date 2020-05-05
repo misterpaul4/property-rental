@@ -19,9 +19,9 @@
   <div class="wrapper mx-auto">
     <!-- header navigation -->
     <nav class="d-flex flex-md-row flex-column justify-content-between align-items-center header-nav primary-bg-color container-fluid">
-      <a href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
+      <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
       <ul class="nav text-uppercase">
-        <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-search"></i> <span>find properties</span></a>
+        <li class="nav-item"><a href="search-result.html" class="nav-link"><i class="fas fa-search"></i> <span>find properties</span></a>
         </li>
         <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-home"></i> <span>featured properties</span></a>
         </li>
@@ -41,16 +41,16 @@
 
     <main>
       <!-- search -->
-      <div class="search-filter-container">
-        <span class="message text-center d-block">filter your search results:</span>
-        <form class="text-uppercase search-form container pt-md-5 pt-4 pb-4 mt-2">
+      <div class="search-filter-container my-5 py-5">
+        <span class="message text-center d-block">Filter your search results:</span>
+        <form class="text-uppercase search-form container pt-md-5 pt-4 pb-4">
           <!-- search -->
           <label class="search-box"> search properties:
             <input type="search" name="search" placeholder="e.g studio" class="pl-2 box-std w-100">
           </label>
 
           <!-- budget -->
-          <fieldset class="d-inline-block position-relative">
+          <fieldset class="d-inline-block position-relative mb-3">
             <label class="d-block mb-0">budget:</label>
             <select name="budget" class="box-std text-capitalize pr-4">
               <option value="0" selected="selected">select</option>
@@ -63,7 +63,7 @@
           </fieldset>
 
           <!-- district -->
-          <fieldset class="d-inline-block position-relative">
+          <fieldset class="d-inline-block position-relative mb-3">
             <label class="d-block mb-0">district:</label>
             <select name="district" class="box-std text-capitalize pr-4">
               <option value="0" selected="selected">select</option>
@@ -78,7 +78,7 @@
           </fieldset>
 
           <!-- type -->
-          <fieldset class="d-inline-block position-relative">
+          <fieldset class="d-inline-block position-relative mb-3">
             <label class="d-block mb-0">property type:</label>
             <select name="district" class="box-std text-capitalize pr-4">
               <option value="0" selected="selected">select</option>
@@ -93,7 +93,7 @@
           </fieldset>
 
           <!-- payment type -->
-          <fieldset class="d-inline-block position-relative">
+          <fieldset class="d-inline-block position-relative mb-3">
             <label class="d-block mb-0">payment type:</label>
             <select name="district" class="box-std text-capitalize pr-4">
               <option value="0" selected="selected">select</option>
@@ -107,7 +107,7 @@
           </fieldset>
 
           <!-- extras -->
-          <fieldset class="d-inline-block position-relative">
+          <fieldset class="d-inline-block position-relative mb-3">
             <label class="d-block mb-0">extra features:</label>
             <select name="district" class="box-std text-capitalize pr-4">
               <option value="0" selected="selected">select</option>
@@ -119,12 +119,12 @@
             <img src="img/icons/arrow-down.svg" alt="arrow down icon" class="position-absolute pos-icon">
           </fieldset>
 
-          <!-- submit -->
-          <button type="submit" class="box-std text-light mt-2 text-center px-3 search-btn"><i class="fa fa-search"></i> SEARCH
-          </button>
-
           <!-- clear filter -->
-          <button type="reset" class="d-inline box-std text-light mt-2 text-center px-3" name="reset"><i class="fas fa-retweet"></i> CLEAR FILTER</button>
+          <button type="reset" class="text-lowercase rounded d-inline box-std text-light mt-2 text-center px-3" name="reset"><i class="fas fa-retweet"></i> CLEAR FILTER</button>
+
+          <!-- submit -->
+          <button type="submit" class="rounded box-std text-light mt-2 text-center px-3 search-btn"><i class="fa fa-search"></i> Search
+          </button>
         </form>
       </div>
       <!-- search END -->
