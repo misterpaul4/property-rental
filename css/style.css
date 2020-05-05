@@ -212,8 +212,12 @@ h3 {
 }
 
 .search-result {
-  width: 400px;
-  overflow-x: hidden;
+  width: 330px;
+  overflow: hidden;
+}
+
+.house-photo {
+  height: 200px;
 }
 
 .footer-navigation li {
