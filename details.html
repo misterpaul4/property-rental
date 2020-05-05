@@ -13,7 +13,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/b9edfb7622.js" crossorigin="anonymous"></script>
-  <title>Search Results:</title>
+  <title>Property Details</title>
 </head>
 <body>
   <div class="wrapper mx-auto">
@@ -40,16 +40,26 @@
     </nav>
 
     <main>
-      <div>
-        <h1>agent logo and name</h1>
-        <ul class="property-details-grid list-unstyled text-uppercase">
+      <div class="container property-details pt-3 pb-1 mt-5 mb-2 text-uppercase">
+        <img src="img/agent.png" alt="agent logo" class="logo my-2">
+        <ul class="property-details-list list-unstyled text-center">
           <li>type: <span class="secondary-blue-color">3 bedroom apartment</span></li>
           <li>district: <span class="secondary-blue-color">paphos</span></li>
           <li>date listed: <span class="secondary-blue-color">24-june-2020</span></li>
-          <li>agent: <span class="secondary-blue-color">henry charles</span></li>
+          <li>agent: <span class="secondary-blue-color">joe duncan</span></li>
           <li>email: <span class="secondary-blue-color">henrycharles@yahoo.com</span></li>
           <li>tel: <span class="secondary-blue-color">+39 (254) 7588 855</span></li>
           <li>price: <span class="secondary-blue-color">£400 monthly</span></li>
+          <li>property age: <span class="secondary-blue-color">3 years</span></li>
+        </ul>
+        <button class="d-block ml-auto border-0 px-2 py-1 secondary-blue-bg-color text-light text-uppercase font-weight-bold"><i class="fas fa-house-user"></i> rent
+        </button>
+        <ul class="list-unstyled d-flex justify-content-end property-extras mt-2">
+          <li class="px-1"><i class="fas fa-phone-alt"></i>tel:+39-(254)-7588</li>
+          <li class="px-1"><i class="fas fa-shopping-cart"></i>market nearby:yes</li>
+          <li class="px-1"><i class="fas fa-laptop"></i>website:<a href="#" class="text-lowercase">zzzy.com</a></li>
+          <li class="px-1"><i class="fas fa-money-bill-wave"></i>maintenance fee:yes</li>
+          <li class="px-1"><i class="fas fa-hand-holding-usd"></i>deposit:yes(2 months)</li>
         </ul>
       </div>
     </main>

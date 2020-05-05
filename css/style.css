@@ -140,7 +140,32 @@ h3 {
 
 .logo {
   width: 140px;
-  height: 50px;
+  height: 55px;
+}
+
+.property-details {
+  -webkit-box-shadow: -1px 1px 5px 9px rgba(211,211,211,0.71);
+  -moz-box-shadow: -1px 1px 5px 9px rgba(211,211,211,0.71);
+  box-shadow: -1px 1px 5px 9px rgba(211,211,211,0.71);
+}
+
+.property-details-list {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.property-details-list li {
+  border: 1px solid lightgrey;
+}
+
+.property-extras li {
+  border-right: 1px solid lightgrey;
+  font-size: 0.8rem;
+}
+
+.property-extras i {
+  color: var(--secondary-color-blue);
 }
 
 .hero {
