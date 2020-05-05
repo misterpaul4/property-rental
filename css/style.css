@@ -110,6 +110,11 @@ a:hover {
   background: inherit;
 }
 
+.more-details-btn:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
 .header-nav .burger-menu .login:hover {
   border-radius: 0 0 0 10px;
 }
@@ -133,6 +138,11 @@ h3 {
   font-weight: 700;
 }
 
+.g-map h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
 .burger-menu {
   transform: translate3d(-55px, 36px, 0);
   border-radius: 0 0 0 10px;
@@ -144,9 +154,9 @@ h3 {
 }
 
 .property-details {
-  -webkit-box-shadow: -1px 1px 5px 9px rgba(211,211,211,0.71);
-  -moz-box-shadow: -1px 1px 5px 9px rgba(211,211,211,0.71);
-  box-shadow: -1px 1px 5px 9px rgba(211,211,211,0.71);
+  -webkit-box-shadow: -1px 1px 5px 3px rgba(211,211,211,0.71);
+  -moz-box-shadow: -1px 1px 5px 3px rgba(211,211,211,0.71);
+  box-shadow: -1px 1px 5px 3px rgba(211,211,211,0.71);
 }
 
 .property-details-list {
@@ -158,6 +168,11 @@ h3 {
 .property-details-list li {
   border: 1px solid lightgrey;
 }
+
+.more-details-btn {
+  font-size: 1.4rem;
+}
+
 
 .property-extras li {
   border-right: 1px solid lightgrey;
@@ -375,6 +390,10 @@ h3 {
     order: -1;
     margin: 0 auto;
   }
+
+  .more-details-btn {
+    font-size: 1.1rem;
+  }
 }
 
 @media all and (max-width: 400px) {
@@ -389,5 +408,10 @@ h3 {
   .property-details-list {
     grid-template-columns: 1fr;
     font-size: 1rem;
+  }
+
+  .more-details-btn {
+    font-size: 0.7rem;
+    font-weight: bold;
   }
 }
