@@ -211,6 +211,11 @@ h3 {
   grid-template-rows: 1fr 1fr;
 }
 
+.search-result {
+  width: 400px;
+  overflow-x: hidden;
+}
+
 .footer-navigation li {
   flex: 1;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
