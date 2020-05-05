@@ -161,7 +161,7 @@ h3 {
 
 .property-extras li {
   border-right: 1px solid lightgrey;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .property-extras i {
@@ -346,6 +346,14 @@ h3 {
     width: 100%;
   }
 
+  .property-details-list {
+    font-size: 0.8rem;
+  }
+
+  .property-extras li {
+    border: 0;
+  }
+
   .footer-navigation a:hover {
     transform: none;
   }
@@ -376,5 +384,10 @@ h3 {
 
   .house-photo {
     height: 150px;
+  }
+
+  .property-details-list {
+    grid-template-columns: 1fr;
+    font-size: 1rem;
   }
 }
