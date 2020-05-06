@@ -154,9 +154,9 @@ h3 {
 }
 
 .property-details {
-  -webkit-box-shadow: -1px 1px 5px 3px rgba(211,211,211,0.71);
-  -moz-box-shadow: -1px 1px 5px 3px rgba(211,211,211,0.71);
-  box-shadow: -1px 1px 5px 3px rgba(211,211,211,0.71);
+  -webkit-box-shadow: -1px 1px 5px 3px rgba(211, 211, 211, 0.71);
+  -moz-box-shadow: -1px 1px 5px 3px rgba(211, 211, 211, 0.71);
+  box-shadow: -1px 1px 5px 3px rgba(211, 211, 211, 0.71);
 }
 
 .property-details-list {
@@ -349,7 +349,7 @@ h3 {
 
 @media all and (max-width: 768px) {
   .header-nav a {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .burger-menu {
