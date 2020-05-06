@@ -2,7 +2,10 @@
 
 > I built this project using similar design concepts and layouts from [behence](https://www.behance.net/gallery/25563385/PatashuleKE). The site is mobile friendly and responsive.
 
-![screenshot](./img/screenshot.png)
+![screenshot(homepage)](./img/screenshot.png)
+![screenshot(search results)](./img/screensho3.png)
+![screenshot(property info)](./img/screenshot1.png)
+
 
 ## Built With
 
