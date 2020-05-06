@@ -110,6 +110,10 @@ a:hover {
   background: inherit;
 }
 
+.more-details-btn {
+  font-size: 1.4rem;
+}
+
 .more-details-btn:hover {
   background: var(--primary-color);
   color: white;
@@ -168,11 +172,6 @@ h3 {
 .property-details-list li {
   border: 1px solid lightgrey;
 }
-
-.more-details-btn {
-  font-size: 1.4rem;
-}
-
 
 .property-extras li {
   border-right: 1px solid lightgrey;
@@ -233,8 +232,6 @@ h3 {
   font-weight: 700;
   font-size: 1.4rem;
 }
-
-
 
 .detail-image {
   width: 300px;
