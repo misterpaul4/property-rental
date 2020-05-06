@@ -225,6 +225,7 @@ h3 {
 
 .message {
   font-size: 1.8rem;
+  font-weight: 900;
 }
 
 .search-filter-container .message {
@@ -341,6 +342,10 @@ h3 {
 @media all and (max-width: 991px) {
   .footer-navigation {
     font-size: 0.75rem;
+  }
+
+  .property-extras li {
+    font-size: 0.65rem;
   }
 }
 
