@@ -92,6 +92,11 @@ a:hover {
   outline: none;
 }
 
+.footer-navigation li a {
+  color: white;
+  display: block;
+}
+
 .footer-navigation a:hover {
   transform: scale(1.1);
 }
@@ -148,8 +153,6 @@ h3 {
   font-weight: 400;
 }
 
-
-/* flex */
 .flex-x,
 .flex-y,
 .flex-x-center,
@@ -252,6 +255,16 @@ h3 {
   width: 15px;
 }
 
+.hero-container,
+footer h4,
+.copyright-section {
+  text-transform: uppercase;
+}
+
+.search-form fieldset {
+  display: inline-block;
+}
+
 .message {
   font-size: 1.8rem;
   font-weight: 900;
@@ -290,6 +303,9 @@ h3 {
 
 .footer-navigation li {
   flex: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -325,6 +341,12 @@ h3 {
 
 .sub-contact-about-container .mailing-list {
   height: 35px;
+}
+
+.mailing-list > * {
+  display: inline-block;
+  height: 100%;
+  color: white;
 }
 
 .footer-copyright-container i {
@@ -373,13 +395,19 @@ h3 {
     font-size: 0.75rem;
   }
 
+  .footer-copyright-container {
+    display: block;
+  }
+
   .property-extras li {
     font-size: 0.65rem;
   }
 }
 
 @media all and (max-width: 768px) {
-  .header-nav {
+  .header-nav,
+  .features > *,
+  .footer-navigation ul {
     flex-direction: column;
   }
 
