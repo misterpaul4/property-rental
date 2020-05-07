@@ -118,6 +118,10 @@ a:hover {
 
 .more-details-btn {
   font-size: 1.4rem;
+  display: block;
+  text-transform: uppercase;
+  width: 100%;
+  border: 0;
 }
 
 .more-details-btn:hover {
@@ -199,6 +203,7 @@ h3 {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: 1fr 1fr;
+  list-style: none;
 }
 
 .property-details-list li {
@@ -257,7 +262,9 @@ h3 {
 
 .hero-container,
 footer h4,
-.copyright-section {
+.copyright-section,
+.property-details
+ {
   text-transform: uppercase;
 }
 
@@ -411,7 +418,8 @@ footer h4,
 @media all and (max-width: 768px) {
   .header-nav,
   .features > *,
-  .footer-navigation ul {
+  .footer-navigation ul,
+  .property-extras {
     flex-direction: column;
   }
 
