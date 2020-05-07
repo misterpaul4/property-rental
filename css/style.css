@@ -265,6 +265,10 @@ footer h4,
   display: inline-block;
 }
 
+.search-result-container {
+  flex-wrap: wrap;
+}
+
 .message {
   font-size: 1.8rem;
   font-weight: 900;
