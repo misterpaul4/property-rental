@@ -24,6 +24,7 @@ footer li {
 .wrapper {
   max-width: 1366px;
   background: white;
+  overflow: hidden;
 }
 
 .bg-black {
@@ -145,6 +146,34 @@ h3 {
 .g-map h2 {
   font-size: 1.3rem;
   font-weight: 400;
+}
+
+
+/* flex */
+.flex-x,
+.flex-y,
+.flex-x-center,
+.flex-y-center,
+.flex-centered,
+.flex-between {
+  display: flex;
+}
+
+.flex-y-center {
+  align-items: center;
+}
+
+.flex-centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-x-center {
+  justify-content: center;
 }
 
 .burger-menu {
@@ -350,11 +379,16 @@ h3 {
 }
 
 @media all and (max-width: 768px) {
+  .header-nav {
+    flex-direction: column;
+  }
+
   .header-nav a {
     font-size: 1.1rem;
   }
 
   .burger-menu {
+    border: 0;
     border-radius: 0 0 10px 10px;
     top: -4px !important;
   }
